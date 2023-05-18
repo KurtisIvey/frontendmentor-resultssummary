@@ -1,0 +1,43 @@
+
+
+// fonts
+@font-face {
+    font-family: 'hankenBold';
+    src: url('./assets/fonts/static/HankenGrotesk-Bold.ttf');
+} 
+
+@font-face {
+    font-family: 'hankenExtraBold';
+    src: url('./assets/fonts/static/HankenGrotesk-ExtraBold.ttf');
+} 
+@font-face {
+    font-family: 'hankenMedium';
+    src: url('./assets/fonts/static/HankenGrotesk-Medium.ttf');
+} 
+@font-face {
+    font-family: 'hanken';
+    src: url('./assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+} 
+
+//variables
+
+$textDark: #313749;
+$textLight: #d2c6ff;
+
+$reactionFont:#db6867;
+$reactionBg: #fff6f5;
+
+$memoryFont:#eabf6d;
+$memoryBg:#fffbf2;
+
+$verbalFont:#3ea78d;
+$verbalBg: #f2fbfa;
+
+
+$visualFont: #464eb5;
+$visualBg: #f3f3fd;
+
+$resultBgBottomFade:#312cea;
+$resultBgTopFade: #6743ff;
+
+$continueBg: #eabf6d;

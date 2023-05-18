@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "hankenBold";
+  src: url("./assets/fonts/static/HankenGrotesk-Bold.ttf");
+}
+@font-face {
+  font-family: "hankenExtraBold";
+  src: url("./assets/fonts/static/HankenGrotesk-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "hankenMedium";
+  src: url("./assets/fonts/static/HankenGrotesk-Medium.ttf");
+}
+@font-face {
+  font-family: "hanken";
+  src: url("./assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+.summary {
+  padding: 0 30px;
+  height: 100%;
+}
+.summary h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #313749;
+  padding-bottom: 10px;
+}
+.summary .smallContainer {
+  height: 55px;
+  margin: 15.5px 0;
+  border-radius: 11px;
+  display: flex;
+  justify-content: space-between;
+}
+.summary .smallContainer .left {
+  display: flex;
+  justify-self: flex-start;
+  align-items: center;
+}
+.summary .smallContainer .left img {
+  height: 19px;
+  width: auto;
+  margin: 0 10px;
+}
+.summary .smallContainer .left p {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.summary .smallContainer .right {
+  display: flex;
+  justify-self: flex-end;
+  font-weight: 800;
+  font-size: 1.01rem;
+}
+.summary .smallContainer .right p {
+  margin-right: 15px;
+  color: #9fa1ae;
+}
+.summary .smallContainer .right p span {
+  color: #4e505f;
+  margin-right: 3px;
+}
+.summary .reaction {
+  color: #db6867;
+  background-color: #fff6f5;
+}
+.summary .memory {
+  color: #eabf6d;
+  background-color: #fffbf2;
+}
+.summary .verbal {
+  color: #3ea78d;
+  background-color: #f2fbfa;
+}
+.summary .visual {
+  color: #464eb5;
+  background-color: #f3f3fd;
+}
+.summary button {
+  font-size: 1.05rem;
+  font-weight: 600;
+  width: 100%;
+  border-radius: 29px;
+  border: none;
+  outline: none;
+  padding: 18px;
+  color: white;
+  background-color: #303b59;
+  margin-top: 10px;
+}/*# sourceMappingURL=Summary.css.map */

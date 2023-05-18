@@ -1,0 +1,93 @@
+@import '../../variables.scss';
+
+.summary {
+    padding: 0 30px;
+    height: 100%;
+
+    h2 {margin: 0;
+        font-size: 1.1rem;
+        color: $textDark;
+        padding-bottom: 10px;
+    }
+
+    .smallContainer {
+        height: 55px;
+        margin: 15.5px 0;
+        border-radius: 11px;
+        display: flex;
+        justify-content: space-between;
+        
+        .left{
+            display: flex;
+            justify-self: flex-start;
+            align-items: center;
+
+            img {
+                height: 19px;
+                width: auto;
+                margin: 0 10px;
+            }
+            p {
+                font-weight: 600;
+                font-size: 1rem;
+            }
+        }
+        .right{
+            display: flex;
+            justify-self: flex-end;
+            font-weight: 800;
+            font-size: 1.01rem;
+            
+            p {
+                margin-right: 15px;
+                color: #9fa1ae;
+
+                span {
+                    color: #4e505f;
+                    margin-right: 3px;
+                }
+            }
+        
+        }
+    }
+
+    .reaction {
+        color: $reactionFont;
+        background-color: $reactionBg;
+    }
+
+    .memory {
+        color: $memoryFont;
+        background-color: $memoryBg;
+    }
+
+    .verbal {
+        color: $verbalFont;
+        background-color: $verbalBg;
+    }
+
+    .visual {
+        color: $visualFont;
+        background-color: $visualBg;
+    }
+
+
+
+
+
+
+
+    button{
+        font-size: 1.05rem;
+        font-weight: 600;
+        width: 100%;
+        border-radius: 29px;
+        border: none;
+        outline: none;
+        padding: 18px;
+        color: white;
+        background-color: #303b59;
+        margin-top: 10px;
+    }
+}
+

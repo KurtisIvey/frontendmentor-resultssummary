@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "hankenBold";
+  src: url("./assets/fonts/static/HankenGrotesk-Bold.ttf");
+}
+@font-face {
+  font-family: "hankenExtraBold";
+  src: url("./assets/fonts/static/HankenGrotesk-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "hankenMedium";
+  src: url("./assets/fonts/static/HankenGrotesk-Medium.ttf");
+}
+@font-face {
+  font-family: "hanken";
+  src: url("./assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 700px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 500px;
+    height: 500px;
+  }
+}
+main {
+  font-family: "hanken";
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}/*# sourceMappingURL=MainContainer.css.map */
