@@ -28,7 +28,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    width: 500px;
+    width: 735px;
     height: 500px;
     margin: auto; /* Add this line */
     position: absolute; /* Add this line */
@@ -36,6 +36,8 @@ body {
     bottom: 0; /* Add this line */
     left: 0; /* Add this line */
     right: 0; /* Add this line */
+    box-shadow: 0px 2px 40px rgb(203, 214, 219);
+    border-radius: 30px;
   }
 }
 @media screen and (max-width: 700px) {
