@@ -1,7 +1,17 @@
 @import '../../variables.scss';
 
+
+@media screen and (min-width: 700px){
+    .summary {
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+
+    }
+}
+
 .summary {
-    padding: 0 30px;
+    padding: 20px 30px;
     height: 100%;
 
     h2 {margin: 0;

@@ -1,25 +1,83 @@
 @import '../../variables.scss';
 
+@media screen and (min-width: 700px){
+    .yourResultcontainer {
+         border-radius: 30px;
+         padding-top: 23px;
+
+         h2{ 
+            font-size: 1.43rem;
+        }
+        .outOf{
+            height: 190px;
+            width: 190px;
+            div{
+                top: 51px;
+                font-size: 4.2rem;
+            }
+            p{
+                top: 115px;
+                font-size: 1.1rem;
+            }
+        }
+        .great{
+            font-size: 2.05rem;
+            margin-top: 50px;
+        }
+        .description{
+            width: 240px;
+            font-size: 1.05rem;
+            font-family: 'hanken';
+        }
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .yourResultcontainer{
+        padding-top: 10px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        h2{
+            font-size: 1.15rem;
+        }
+        .outOf{
+            height: 130px;
+            width: 130px;
+            margin-bottom: 25px;
+            div{
+                top: 22px;
+                font-size: 55px;
+            }
+            p{
+                font-size: 1rem;
+                top: 75px;
+            }
+        }
+        .great{
+            font-size: 1.45rem;
+            margin-top: 2px;
+        }
+        .description{
+            font-size: .95rem;
+            margin: 14px 0 0 0;
+            max-width: 260px;
+        }
+    }
+}
+
 .yourResultcontainer{
     display: flex;
-    height: 351px;
+    height: 100%;
     background-image: linear-gradient( $resultBgTopFade,$resultBgBottomFade);
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    padding-top: 10px;
 
     h2{ font-family: 'hankenBold';
-        font-size: 1.15rem;
         color: $textLight;
     }
-    
-
-    .outOf {
-        height: 130px;
-        width: 130px;
+    .outOf {   
         border-radius: 50%;
         border: none;
         display: flex;
@@ -28,12 +86,9 @@
         align-items: center;
         background-image: linear-gradient(#471dc7,#4738e8);
         position: relative;
-        margin-bottom: 25px;
 
         div{
-            top: 22px;
             position: absolute;
-            font-size: 55px;
             font-family: 'hankenBold';
             color: white;
         }
@@ -41,20 +96,14 @@
             position: absolute;
             font-family: 'hankenBold';
             color: #8c80ff;
-            top: 75px;
         }
         
     }
     .great {
             font-family: 'hankenBold';
-            font-size: 1.45rem;
             color: white;
-            margin-top: 2px;
     }
     .description {
-        font-size: .95rem;
-        margin: 14px 0 0 0;
-        max-width: 260px;
         text-align: center;
         word-wrap: normal;
         color: $textLight;

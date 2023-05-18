@@ -10,13 +10,13 @@ body {
 }
 
 
-@media screen and (min-width: 700px)  {
+@media screen and (min-width: 735px)  {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         width: 735px;
-        height: 500px;
+        height: 520px;
         margin: auto; /* Add this line */
         position: absolute; /* Add this line */
         top: 0; /* Add this line */
