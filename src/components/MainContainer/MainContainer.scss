@@ -17,12 +17,18 @@ body {
         grid-template-rows: 1fr;
         width: 500px;
         height: 500px;
+        margin: auto; /* Add this line */
+        position: absolute; /* Add this line */
+        top: 0; /* Add this line */
+        bottom: 0; /* Add this line */
+        left: 0; /* Add this line */
+        right: 0; /* Add this line */
         
     }
 }
 
-
-main {
+@media screen and (max-width: 700px){
+    main {
     font-family: 'hanken';
     display: grid;
     grid-template-columns: 1fr;
@@ -30,7 +36,9 @@ main {
     width: 100%;
     height: 100vh;
     position: relative;
+    }   
 }
+
 
 
 

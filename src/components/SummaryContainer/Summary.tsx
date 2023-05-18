@@ -1,4 +1,3 @@
-type Props = {};
 import "./Summary.css";
 
 import iconReaction from "../../assets/images/icon-reaction.svg";
@@ -6,7 +5,7 @@ import iconMemory from "../../assets/images/icon-memory.svg";
 import iconVerbal from "../../assets/images/icon-verbal.svg";
 import iconVisual from "../../assets/images/icon-visual.svg";
 
-const Summary = (props: Props) => {
+const Summary = () => {
   return (
     <section className="summary">
       <h2>Summary</h2>
