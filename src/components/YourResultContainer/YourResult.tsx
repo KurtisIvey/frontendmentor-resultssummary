@@ -1,8 +1,6 @@
 import "./YourResult.css";
 
-type Props = {};
-
-const YourResult = (props: Props) => {
+const YourResult = () => {
   return (
     <section className="yourResultcontainer">
       <h2>Your Result</h2>
